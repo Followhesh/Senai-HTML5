@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site da coldigo Geladeiras">
+    <meta name="Keywords" content="Geladeiras, Frost-free, Refrigeração">
+    <meta name="author" content="Escola Sistêmica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldigo Geladeiras</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+</head>
+<body>
+   
+ <section>
+    <h2>Inscrições para o evento tech 2024!</h2>
+    <p>Complete o formulario abaixo para se increver no evento!</p>
+    <form name="Formulario" method="post" action="#">
+        <fieldset class="faleConosco">
+            <legend>Dados pessoais:</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="txtnome" id="nome">
+
+            <label for="fone">Telefone: </label>
+            <input type="text" name="txtfone" id="fone">
+
+            <label for="email">E-mail: </label>
+            <input type="email" name="txtemail" id="email">
+        </fieldset>
+        <fieldset class="faleConosco">
+            <legend>Motivo do contato:</legend>
+            <label for="motivo">Motivo: </label>
+            <select name="selmotivo" id="motivo">
+                <option value="">Escolha</option>
+                <option value="RE">Reclamação</option>
+                <option value="SU">Sugestão</option>
+                <option value="PR">Informação sobre produto</option>
+            </select>
+            <label for="comentario">Comentário: </label>
+            <textarea name="txacomentario" id="comentario"></textarea>
+            <button type ="reset">Limpar</button><button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</section>
+    <footer>Copyright &copy; Escola Sistêmica 2019</footer>
+
+</html>
+
+</body>
